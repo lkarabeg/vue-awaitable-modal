@@ -2,7 +2,7 @@
 
 A simple, barebones modal library inspired by the modals in Angular Material. 
 
-Bring your own components and styling, because this library doesn't provide those.
+Bring your own components and styling.
 
 ## How it works
 
@@ -16,8 +16,7 @@ const showPrompt = async () => {
 ````
 
 Not like this, because it requires a bunch of unwanted supporting code in the parent 
-component that's trying to show the modal. Plus we can only launch modals from templates. 
-Yuck!
+component that's trying to show the modal. Plus we can only launch modals from templates.
 
 ````vue
 <template>
@@ -69,8 +68,9 @@ props: {
 }
 
 // When closing
-this.modalContext.dismiss()
 this.modalContext.close({ success: true })
+// or
+this.modalContext.dismiss()
 ````
 
 ### (Optional) Extend the modal service
