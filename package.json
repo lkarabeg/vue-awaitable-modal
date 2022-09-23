@@ -41,5 +41,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/lkarabeg/vue-awaitable-modal"
-  }
+  },
+  "keywords": [
+    "vue",
+    "modal",
+    "dialog"
+  ]
 }
