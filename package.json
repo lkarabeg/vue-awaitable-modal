@@ -37,5 +37,9 @@
     "vite-plugin-dts": "^1.5.0",
     "vue-tsc": "^0.40.13"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lkarabeg/vue-awaitable-modal"
+  }
 }
