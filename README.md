@@ -31,6 +31,12 @@ component that's trying to show the modal. Plus we can only launch modals from t
 
 ## Getting started
 
+### Install
+
+````sh
+npm install @lkarabeg/vue-awaitable-modal
+````
+
 ### Place the modal root component
 
 This is where the modals will be rendered in the DOM. It requires a modal service.
